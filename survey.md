@@ -1,6 +1,6 @@
 ---
 title: Survey
 excerpt: "Survey for $20"
-aside: true
+feature_image: "https://picsum.photos/2560/600?image=866"
 ---
-Fill in [this survey](https://www.youtube.com/watch?v=dQw4w9WgXcQ "A link") for a chance to win a $20!
+Fill out [this survey](https://www.youtube.com/watch?v=dQw4w9WgXcQ "this survey") for a chance to win a $20!
