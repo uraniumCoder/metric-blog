@@ -1,6 +1,6 @@
 ---
 title: Language controlled robotics for everyone
-feature_image: "https://picsum.photos/2560/600?image=866"
+feature_image: "/assets/background.jpeg"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 

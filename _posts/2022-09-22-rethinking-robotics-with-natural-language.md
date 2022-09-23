@@ -6,7 +6,7 @@ categories:
 - Natural Language Processing
 excerpt: |
     As the capabilities of ML continue to grow, so does our ability to build intelligent robots which can do more than precise, hard-coded movements. Today's robots are able to make plans for complex tasks such as brushing teeth or cleaning up a counter. In this blog, we investigate how to make robots with such human-like intelligence.
-feature_image: "https://picsum.photos/2560/600?image=866"
+feature_image: "/assets/background.jpeg"
 ---
 
 As the capabilities of machine learning continue to grow, so does our ability to build intelligent robots which can do more than precise, hard-coded movements. Today's robots are able to make plans for complex tasks such as brushing teeth or cleaning up a counter. In this blog, we investigate how to make robots with such human-like intelligence.
@@ -28,7 +28,7 @@ Hierarchical learning solves this problem by mimicing the human thought process,
 
 {% include figure.html image="/assets/posts/2022-09-22/feudal.png" caption="Hierarchical learning. Image by Dayan et al. via <a href='https://proceedings.neurips.cc/paper/1992/file/d14220ee66aeec73c49038385428ec4c-Paper.pdf'>Feudal Reinforcement Learning</a>." width="500" height="1000" %}
 
-## Language controlled robots
+## Language controlled robotics
 With hierarchical learning, the high-level planner no longer thinks about concrete physical movements, it instead thinks about abstract ideas which are described by natural language. Thus, a robot's reasoning process can be guided through a natural language prior. The language-based robot would also able to follow natural language commands such as:
 
 ```I want to fill my water bottle. Can you please do this for me?```
