@@ -1,5 +1,5 @@
 ---
-title: Language controlled robots for everyone
+title: Rethinking robotics with natural language
 categories:
 - General
 - Robotics
@@ -26,7 +26,7 @@ Direct RL algorithms such as DQN and PPO are great for small problems, but do no
 
 Hierarchical learning solves this problem by mimicing the human thought process, splitting up the problem into high-level planning and low-level execution. In hierarchical learning, an agent has access to multiple low-level skills which it can execute at will, such as picking up a water bottle or navigating to a water fountain. Then, a high-level planner algorithm treats low-level skills as atomic actions, and devise a sequence of low-level skills which achieves the desired task when executed sequentially.
 
-{% include figure.html image="/assets/posts/2022-09-22/simulation.png" caption="The Playground environment. Image by Lynch et al. via <a href='https://learning-from-play.github.io/'>learning-from-play.github.io</a>." width="500" height="1000" %}
+{% include figure.html image="/assets/posts/2022-09-22/feudal.png" caption="Hierarchical learning. Image by Dayan et al. via <a href='https://proceedings.neurips.cc/paper/1992/file/d14220ee66aeec73c49038385428ec4c-Paper.pdf'>Feudal Reinforcement Learning</a>." width="500" height="1000" %}
 
 ## Language controlled robots
 With hierarchical learning, the high-level planner no longer thinks about concrete physical movements, it instead thinks about abstract ideas which are described by natural language. Thus, a robot's reasoning process can be guided through a natural language prior. The language-based robot would also able to follow natural language commands such as:
@@ -54,3 +54,5 @@ One problem that arises is that the language model is unaware of the robot's sur
 There is a wide range of applications for language-controlled robots with general intelligence, ranging from the automation of routine tasks such as "pack these Amazon packages" to driving cutting edge research such as "find the optimal way to fold this protein". With the current rate of advances in robotics and reinforcement learning, it is possible that, in the near future, physical human labor will be no longer be needed due to full automation. 
 
 Work has also been done on creating languaged-based logic units for reacting to critical circumstances in real time, such as fall and stroke detection in an elder care setting.
+
+{% include figure.html image="/assets/posts/2022-09-22/logic unit.png" caption="Sample layout of a natural language based logic unit" width="500" height="1000" %}
